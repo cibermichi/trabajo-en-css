@@ -13,7 +13,7 @@ header {
     
 }
 
- .foto-personal {
+.foto-personal {
       display: block;
       margin: 20px auto 5px auto;
       border-radius: 15px;
@@ -21,7 +21,7 @@ header {
       height: auto;
       box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
       transition: transform 0.3s;
-    }
+}
 
 nav {
   background-color: #fffafc;
@@ -97,3 +97,4 @@ footer a {
   text-decoration: underline;
 
 }
+

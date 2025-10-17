@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="stylesheet" href="style.css"/>
+    <title>Aplicando estilos con CSS a una página web</title>
+    
+</head>
+<body>
+    
+    <header>
+            <h1>Preguntas sobre HTML y CSS</h1>
+            <p>Estudiante: Noelia Garcia Cajareico</p>
+    </header>
+
+<nav>
+        <ol>
+            <li><a href="#p1">1. Multimedia, hipermedia e hipertexto</a></li>
+            <li><a href="#p2">2. ¿Qué es una página web?</a></li>
+            <li><a href="#p3">3. Significado de HTML</a></li>
+            <li><a href="#p4">4. Inicio y fin de documento HTML</a></li>
+            <li><a href="#p5">5. Etiquetas BODY</a></li>
+            <li><a href="#p6">6. Etiquetas dentro de HEAD</a></li>
+            <li><a href="#p7">7. Atributos de texto</a></li>
+            <li><a href="#p8">8. Etiqueta como parámetro</a></li>
+            <li><a href="#p9">9. Etiquetas de listas</a></li>
+            <li><a href="#p10">10. Color de fondo</a></li>
+            <li><a href="#p11">11. Etiqueta FONT</a></li>
+            <li><a href="#p12">12. Diferencia entre P y DIV</a></li>
+            <li><a href="#p13">13. Estructura básica HTML</a></li>
+            <li><a href="#p14">14. Encabezados o títulos</a></li>
+        </ol>
+    </nav>
+
+    <main>
+        <section id="p1">
+            <h2>1. ¿A qué se denomina Multimedia, Hipermedia e Hipertexto?</h2>
+            <p><b>Multimedia:</b> es la integración de varios tipos de medios (texto, imágenes, sonido, video, animaciones) en una misma aplicación o entorno interactivo.</p>
+            <p><b>Hipermedia:</b> es la evolución de la multimedia que permite la interactividad, enlazando diferentes tipos de información mediante vínculos (links).</p>
+            <p><b>Hipertexto:</b> es un texto con enlaces a otros textos o recursos que permiten una lectura no lineal.</p>
+        </section>
+
+        <section id="p2">
+            <h2>2. ¿Qué es una Página Web? ¿Y qué editores de texto se usan para crear las páginas web?</h2>
+            <p>Una <b>página web</b> es un documento electrónico escrito en lenguaje HTML que se visualiza mediante un navegador. Puede incluir imágenes, enlaces, videos y otros elementos interactivos.</p>
+            <p>Algunos <b>editores de texto</b> usados para crear páginas web son:</p>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Sublime Text</li>
+                <li>Atom</li>
+                <li>Notepad++</li>
+                <li>FrontPage (clásico)</li>
+            </ul>
+        </section>
+
+        <section id="p3">
+            <h2>3. ¿Qué significa HTML y para qué se utiliza?</h2>
+            <p><b>HTML</b> significa <i>HyperText Markup Language</i> (Lenguaje de Marcado de Hipertexto).</p>
+            <p>Se utiliza para estructurar el contenido de una página web, mediante etiquetas que indican al navegador cómo mostrar cada elemento.</p>
+        </section>
+
+        <section id="p4">
+            <h2>4. ¿Qué etiquetas marcan el inicio y el final de un documento HTML?</h2>
+            <pre><code>&lt;html&gt; ... &lt;/html&gt;</code></pre>
+            <p>Estas etiquetas indican el inicio y el fin del código HTML de la página.</p>
+        </section>
+
+        <section id="p5">
+            <h2>5. Las etiquetas &lt;BODY&gt; y &lt;/BODY&gt;, ¿qué indican dentro del documento HTML?</h2>
+            <p>El contenido que se encuentra entre <code>&lt;body&gt;</code> y <code>&lt;/body&gt;</code> representa todo lo que el usuario verá en la página web: texto, imágenes, enlaces, tablas, etc.</p>
+        </section>
+
+        <section id="p6">
+            <h2>6. ¿Cuáles etiquetas se han declarado dentro de &lt;HEAD&gt; y &lt;/HEAD&gt;?</h2>
+            <p>Dentro del <code>&lt;head&gt;</code> se declaran etiquetas como:</p>
+            <ul>
+                <li><code>&lt;title&gt;</code> — título que aparece en la pestaña del navegador.</li>
+                <li><code>&lt;meta&gt;</code> — metadatos sobre el documento (autor, codificación, descripción, etc.).</li>
+                <li><code>&lt;link&gt;</code> — enlaza hojas de estilo CSS.</li>
+                <li><code>&lt;script&gt;</code> — enlaza archivos o código JavaScript.</li>
+                <li><code>&lt;style&gt;</code> — define estilos CSS directamente.</li>
+            </ul>
+        </section>
+
+        <section id="p7">
+            <h2>7. ¿Cuáles son las etiquetas de los atributos de texto? Realizar un ejemplo con cada uno de ellos.</h2>
+            <ul>
+                <li><code>&lt;b&gt;</code> → <b>Texto en negrita</b></li>
+                <li><code>&lt;i&gt;</code> → <i>Texto en cursiva</i></li>
+                <li><code>&lt;u&gt;</code> → <u>Texto subrayado</u></li>
+                <li><code>&lt;small&gt;</code> → <small>Texto pequeño</small></li>
+                <li><code>&lt;mark&gt;</code> → <mark>Texto resaltado</mark></li>
+                <li><code>&lt;sup&gt;</code> → Texto<sup>superíndice</sup></li>
+                <li><code>&lt;sub&gt;</code> → Texto<sub>subíndice</sub></li>
+            </ul>
+        </section>
+
+        <section id="p8">
+            <h2>8. ¿Cuál es la etiqueta que participa como parámetro en otras etiquetas y qué función cumple?</h2>
+            <p>El atributo <b>style</b> participa como parámetro en muchas etiquetas y se usa para aplicar estilos directamente.</p>
+            <pre><code>&lt;p style="color:blue;"&gt;Texto azul&lt;/p&gt;</code></pre>
+        </section>
+
+        <section id="p9">
+            <h2>9. ¿Cuáles son las formas de utilizar las etiquetas de listas? Describir cada una a través de ejemplos reales.</h2>
+            <p><b>Listas ordenadas:</b></p>
+            <pre><code>
+&lt;ol&gt;
+    &lt;li&gt;Primero&lt;/li&gt;
+    &lt;li&gt;Segundo&lt;/li&gt;
+&lt;/ol&gt;
+            </code></pre>
+            <p><b>Listas desordenadas:</b></p>
+            <pre><code>
+&lt;ul&gt;
+    &lt;li&gt;HTML&lt;/li&gt;
+    &lt;li&gt;CSS&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+            </code></pre>
+            <p><b>Listas de definición:</b></p>
+            <pre><code>
+&lt;dl&gt;
+    &lt;dt&gt;HTML&lt;/dt&gt;
+    &lt;dd&gt;Lenguaje de marcado&lt;/dd&gt;
+&lt;/dl&gt;
+            </code></pre>
+        </section>
+
+        <section id="p10">
+            <h2>10. ¿Cuál sería la forma de colocar un color de fondo a la página web?</h2>
+            <p>Se utiliza la propiedad CSS <code>background-color</code>.</p>
+            <pre><code>
+body {
+    background-color: lightblue;
+}
+            </code></pre>
+        </section>
+
+        <section id="p11">
+            <h2>11. ¿Para qué se utiliza la etiqueta &lt;FONT&gt; en la página web? Aplicar un ejemplo.</h2>
+            <p>La etiqueta <code>&lt;font&gt;</code> se utilizaba para cambiar color, tamaño y tipo de letra del texto, aunque hoy está obsoleta.</p>
+            <pre><code>&lt;font color="red" size="5"&gt;Texto rojo&lt;/font&gt;</code></pre>
+            <p>Se reemplaza por CSS:</p>
+            <pre><code>p { color: red; font-size: 20px; }</code></pre>
+        </section>
+
+        <section id="p12">
+            <h2>12. ¿Qué diferencia hay en utilizar la etiqueta &lt;P&gt; o la etiqueta &lt;DIV&gt;?</h2>
+            <p><b>&lt;p&gt;</b> se usa para crear párrafos de texto.</p>
+            <p><b>&lt;div&gt;</b> se usa como contenedor genérico que puede agrupar texto, imágenes u otros elementos. No tiene un significado semántico propio.</p>
+        </section>
+
+        <section id="p13">
+            <h2>13. ¿Cuál es la estructura básica del código HTML?</h2>
+            <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Mi página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hola mundo&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+        </section>
+
+        <section id="p14">
+            <h2>14. ¿Cuáles son las etiquetas de encabezamiento o título? Explicar cada una por medio de ejemplos.</h2>
+            <p>Las etiquetas de encabezado van desde <code>&lt;h1&gt;</code> hasta <code>&lt;h6&gt;</code> y se usan para jerarquizar los títulos.</p>
+            <pre><code>
+&lt;h1&gt;Título principal&lt;/h1&gt;
+&lt;h2&gt;Subtítulo&lt;/h2&gt;
+&lt;h3&gt;Encabezado menor&lt;/h3&gt;
+            </code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 | Referencias:
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">MDN HTML</a> |
+            <a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a>
+            <p>Hecho por Noelia Garcia</p>
+        </p>
+    </footer>
+
+</body>
+</html>
